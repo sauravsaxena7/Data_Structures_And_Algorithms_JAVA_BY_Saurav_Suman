@@ -10,5 +10,8 @@ public class ThreadUsingLambdaExpression {
         };
         Thread thread=new Thread(myThread);
         thread.run();
+        Double d1 =0.0/0.0;
+        System.out.println(d1.isNaN());
+
     }
 }
