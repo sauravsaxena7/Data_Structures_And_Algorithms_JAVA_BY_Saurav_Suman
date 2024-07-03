@@ -1,0 +1,12 @@
+REMOVED RMI ACTIVATION (STANDARD:
+WHAT: Officially removes the outdated RMI activation API
+      for distributed object management.
+
+WHY: Encourage the use of more modern and efficient alternatives
+     like JNDI or Spring remoting
+
+HOW IT WORKS:
+
+RMI activation APIS are no longer available in Java 17.
+Developers should migrate their existing code to use
+alternative approaches for distributed object management.

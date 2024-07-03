@@ -1,0 +1,18 @@
+Foreign Function & Memory API (Preview):
+
+WHAT: Enables Java applications to interact with native
+      code and memory outside the Java Virtual Machine (JVM).
+
+WHY: Improve performance and interoperability with existing
+     c/c++ libraries or hardware resources.
+
+
+HOW IT WORKS:
+
+Use JEP 419 APIS to define foreign functions and allocate
+memory.
+Invoke foreign functions from Java code and pass data
+back and forth
+
+NOTE: This is a preview feature and requires additional
+      configuration and platform specific consideration.

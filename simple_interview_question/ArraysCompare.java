@@ -8,5 +8,7 @@ public class ArraysCompare {
                 int[] x= { 7, 8, 9}; int[] y = { 7, 7, 7};
                 System.out.println(Arrays.compare (x, y) + " " + Arrays.mismatch(x, y));
 
+
     }
 }
+

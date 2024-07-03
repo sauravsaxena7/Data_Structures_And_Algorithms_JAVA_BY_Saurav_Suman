@@ -1,0 +1,18 @@
+HIDDEN Classes (Standard):
+
+WHAT: Make internal JDK classes invisible to the
+      reflection API for enhanced security.
+
+WHY: Prevent accidental access and manipulation of
+     sensitive internal implementations details.
+
+HOW IT WORKS:
+ Internal classes are marked as internal and not accessible
+ through reflection.
+ This protects against potential security vulnerabilities
+ and improve code stability.
+
+ NOTE: This feature mainly affects internal JDK functionality
+       and has minimal impact on general Java development
+
+

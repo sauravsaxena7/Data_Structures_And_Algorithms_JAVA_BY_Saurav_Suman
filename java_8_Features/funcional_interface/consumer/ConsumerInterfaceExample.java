@@ -1,7 +1,7 @@
 package java_8_Features.funcional_interface.consumer;
 
-import java_8_Features.personRepos.PersonReposImple;
-import java_8_Features.personRepos.Persons;
+import utils.personRepos.PersonReposImple;
+import utils.personRepos.Persons;
 
 import java.util.List;
 import java.util.function.Consumer;

@@ -1,6 +1,6 @@
 package java_8_Features.funcional_interface.BiConsumerInterface;
 
-import java.util.Objects;
+import java.util.List;
 import java.util.function.BiConsumer;
 
 
@@ -40,6 +40,13 @@ public class BiConsumerInterfaceExample {
     public static void main(String[] args){
         BiConsumer<Integer,Integer> BiCon1 = (a,b)->System.out.println(a+b);
         BiCon1.accept(9,10);
+
+        BiConsumer<String, List<String>> BiCon2 = (name,hobbies)->System.out.println(name+" "+hobbies);
+
+        BiConsumer<String, Integer> BiCon3 = (name,id)->System.out.println(name+" "+id);
+
+        //Here BiConsumer Of Different types it's give error If two consumer have same type then we can apply andThen Method
+        //PersonReposImple.getAllPersonList().forEach(p->BiCon1.andThen(BiCon2));
 
     }
 }

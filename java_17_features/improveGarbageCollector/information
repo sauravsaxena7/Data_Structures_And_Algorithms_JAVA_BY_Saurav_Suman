@@ -1,0 +1,17 @@
+Improved Garbage Collector (Standard):
+WHAT: Enhance garbage collection performance,
+      particularly with the GIGC algorithm.
+
+
+WHY: Reduce memory usage and Improve application responsiveness
+     by optimizing garbage collection process.
+
+HOW IT WORKS:
+
+GIGC uses a more efficient generation approach to garbage
+collection.
+It identifies and collects garbage faster, leading to lower
+footprint and faster application execution.
+
+NOTE: This features works automatically and requires no
+      specific code changes from developers.

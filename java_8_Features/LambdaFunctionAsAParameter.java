@@ -23,5 +23,6 @@ public class LambdaFunctionAsAParameter {
             System.out.println("I AM CALLING FROM FUNCTION AS PARAMETER");
         }));
         functionMultiply(((int x,int y)-> x*y),78,10);
+        
     }
 }
