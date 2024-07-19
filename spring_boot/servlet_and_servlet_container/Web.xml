@@ -1,0 +1,25 @@
+<servlet>
+    <servlet-name>Servlet1</servlet-name>
+    <servlet-class>Servlet1</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Servlet1</servlet-name>
+    <url-pattern>/servletOne</url-pattern>
+    <url-pattern>/servletOne/hi</url-pattern>
+    <url-pattern>/servletOne/bye</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+<servlet-name>Servlet2</servlet-name>
+<servlet-class>Servlet2</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Servlet2</servlet-name>
+<url-pattern>/servletTwo</url-pattern>
+<url-pattern>/servletTwo/hello</url-pattern>
+<url-pattern>/servletTwo/gello</url-pattern>
+</servlet-mapping>
