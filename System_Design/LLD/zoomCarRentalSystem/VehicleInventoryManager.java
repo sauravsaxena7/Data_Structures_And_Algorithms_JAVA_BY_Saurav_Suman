@@ -1,4 +1,6 @@
-package System_Design.LLD.zoomCarRentalSystem.Product;
+package System_Design.LLD.zoomCarRentalSystem;
+
+import System_Design.LLD.zoomCarRentalSystem.Product.Vehicle;
 
 import java.util.List;
 

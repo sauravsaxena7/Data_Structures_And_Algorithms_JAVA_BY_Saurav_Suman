@@ -1,4 +1,4 @@
-package System_Design.LLD.zoomCarRentalSystem.Product;
+package System_Design.LLD.zoomCarRentalSystem;
 
 public enum ReservationStatus {
     SCHEDULED,

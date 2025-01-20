@@ -1,4 +1,6 @@
-package System_Design.LLD.zoomCarRentalSystem.Product;
+package System_Design.LLD.zoomCarRentalSystem;
+
+import System_Design.LLD.zoomCarRentalSystem.Product.*;
 
 import java.util.Date;
 
